@@ -113,7 +113,7 @@ button:hover {
 /* For mobile devices (600px and below) */
 @media (max-width: 600px) {
     body {
-        padding-top: 20px;
+        padding-top: 50px;
     }
 
     .container {
