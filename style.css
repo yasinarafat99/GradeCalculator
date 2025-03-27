@@ -151,3 +151,22 @@ button:hover {
         margin-bottom: 10px;
     }
 }
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+}
+
+footer a {
+    color: #28a745;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
