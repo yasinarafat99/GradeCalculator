@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>গ্রেড ক্যালকুলেটর</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>📊 গ্রেড ক্যালকুলেটর</h2>
+        <input type="number" id="totalMarks" placeholder="মোট প্রাপ্ত নাম্বার">
+        <input type="number" id="totalSubjects" placeholder="সাব্জেক্ট সংখ্যা">
+        <button onclick="calculateGrade()">Calculate</button>
+        
+        <div class="error-message" id="error-msg">⚠️ দয়া করে সঠিক তথ্য দিন!</div>
+
+        <div class="result-container" id="result-container">
+            <div id="result" class="result-box grade-box">
+                <span>🎓 আপনার গ্রেড</span>
+                <div id="grade-text">--</div>
+            </div>
+            <div id="average-marks" class="result-box average-box">
+                <span>📊 গড় নাম্বার</span>
+                <div id="average-text">--</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
